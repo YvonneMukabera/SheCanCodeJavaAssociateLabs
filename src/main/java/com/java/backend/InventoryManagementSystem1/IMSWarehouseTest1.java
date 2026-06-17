@@ -7,7 +7,10 @@ public class IMSWarehouseTest1 {
                 new Product("P1", "Laptop", "Electronics", "500")
         );
         store.addProduct(
-                new Product("P2", "car", "Mechanic", "9000")
+                new Product("P2", "smartphone", "Electronics", "300")
+        );
+        store.addProduct(
+                new Product("P3", "car", "Mechanic", "9000")
         );
         System.out.println("All Products:");
         for (Product product : store.getAllProducts()) {
