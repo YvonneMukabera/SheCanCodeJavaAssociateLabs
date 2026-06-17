@@ -1,0 +1,5 @@
+TX001,Alice,Bob,500
+TX002,John,Mary,700
+INVALID_LINE
+TX003,Tom,Jane,300
+TX004,BadData
