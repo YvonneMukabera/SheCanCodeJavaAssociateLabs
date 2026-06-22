@@ -5,10 +5,12 @@ This is a beginner-friendly version of the Week 1 labs. It still covers generics
 ## How to Run
 
 ```bash
-mvn compile exec:java -Dexec.mainClass=com.java.backend.Main
+mvn compile exec:java
 ```
 
 If your Maven setup does not have the exec plugin, run `Main.java` from IntelliJ.
+If you need to override the main class from PowerShell, quote the property:
+`mvn exec:java "-Dexec.mainClass=com.java.backend.Main"`.
 
 ## Lab 1.1 - Generics and Collections
 
