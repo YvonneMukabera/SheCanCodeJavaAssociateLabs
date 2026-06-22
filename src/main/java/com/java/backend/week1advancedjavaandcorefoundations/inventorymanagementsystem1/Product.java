@@ -1,4 +1,4 @@
-package com.java.backend.InventoryManagementSystem1;
+package com.java.backend.week1advancedjavaandcorefoundations.inventorymanagementsystem1;
 
 public class Product {
     private String id;

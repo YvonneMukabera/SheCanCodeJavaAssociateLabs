@@ -1,4 +1,4 @@
-package com.java.backend.InventoryManagementSystem1;
+package com.java.backend.week1advancedjavaandcorefoundations.inventorymanagementsystem1;
 
 public class IMSWarehouseTest1 {
     public static void main(String[] args) {
@@ -25,7 +25,7 @@ public class IMSWarehouseTest1 {
         for (Product product : store.getAllProducts()) {
             System.out.println(product);
         }
-        // for testing generic constraint rejects non-Product types at compile time.
+        //for testing generic constraint rejects non-Product types at compile time.
         //WarehouseStore<Customer> customerStore= new WarehouseStore<>();
     }
 }

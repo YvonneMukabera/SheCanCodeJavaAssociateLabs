@@ -1,4 +1,4 @@
-package com.java.backend.BankingTransactionProcessor2;
+package com.java.backend.week1advancedjavaandcorefoundations.bankingtransactionprocessor2;
 
 public class Account {
     private String owner;
@@ -21,6 +21,7 @@ public class Account {
     }
     @Override
     public String toString() {
+
         return String.format("Account for %s: RWF %.2f", owner, balance);
     }
 }

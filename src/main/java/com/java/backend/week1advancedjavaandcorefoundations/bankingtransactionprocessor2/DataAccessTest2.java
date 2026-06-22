@@ -1,4 +1,4 @@
-package com.java.backend.BankingTransactionProcessor2;
+package com.java.backend.week1advancedjavaandcorefoundations.bankingtransactionprocessor2;
 import java.sql.SQLException;
 public class DataAccessTest2 {
     public static void main (String[]args){

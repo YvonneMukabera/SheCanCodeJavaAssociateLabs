@@ -1,1 +1,1 @@
-Line3: INVALID_LINE Expected 4 fields in line 3: INVALID_LINELine5: TX004,BadData Expected 4 fields in line 5: TX004,BadData
+Line4: TX004,BadData Expected 4 fields in line 4: TX004,BadData

@@ -1,4 +1,4 @@
-package com.java.backend.BankingTransactionProcessor2;
+package com.java.backend.week1advancedjavaandcorefoundations.bankingtransactionprocessor2;
 
 public class ParseError3 {
     private int lineNumber;

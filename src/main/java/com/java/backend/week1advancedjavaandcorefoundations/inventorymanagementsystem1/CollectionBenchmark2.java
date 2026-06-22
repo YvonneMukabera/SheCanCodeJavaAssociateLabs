@@ -1,11 +1,16 @@
-package com.java.backend.InventoryManagementSystem1;
+package com.java.backend.week1advancedjavaandcorefoundations.inventorymanagementsystem1;
 import java.util.*;
 public class CollectionBenchmark2 {
     private static final int SIZE = 1000;
     public static void main(String[] args) {
-        testCollection(new ArrayList<>(),"ArrayList");
-        testCollection(new LinkedList<>(),"LinkedList");
-        testCollection(new HashSet<>(),"HashSet");
+        testCollection(
+                new ArrayList<>(),"ArrayList");
+        testCollection(
+
+                new LinkedList<>(),"LinkedList");
+        testCollection(
+
+                new HashSet<>(),"HashSet");
         testCollection(new TreeSet<>(),"TreeSet");
 
     }
